@@ -1,1 +1,11 @@
 .DS_Store
+/lib/tmhOAuth/LICENSE
+/lib/tmhOAuth/README.md
+/lib/tmhOAuth/cacert.pem
+/lib/twitter-text-php/tests
+/lib/twitter-text-php/.gitmodules
+/lib/twitter-text-php/LICENSE
+/lib/twitter-text-php/phpunit.xml
+/lib/twitter-text-php/README
+/lib/twitter-text-php/README.markdown
+/lib/twitter-text-php/TODO
