@@ -222,12 +222,12 @@
             break;
           default:
             $format = str_replace('%O', date('S', $tweet_time), $this->options['date_format']);
-            $display_time = strftime($format, $tweet_time);
+            $display_time = date($format, $tweet_time);
             break;
         }
       } else {
         $format = str_replace('%O', date('S', $tweet_time), $this->options['date_format']);
-        $display_time = strftime($format, $tweet_time);
+        $display_time = date($format, $tweet_time);
       }
 
       $href = 'http://twitter.com/' . $tweet['user']['screen_name'] . '/status/' . $tweet['id_str'];
